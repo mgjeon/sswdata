@@ -1,0 +1,8 @@
+download_dir: /mnt/d/data/sdo_raw
+email: mgjeon@khu.ac.kr
+start_date: 2020-01-01T00:00:00
+end_date: 2024-01-01T00:00:00
+interval: [1, 'days']
+# wavelengths: ['94', '131', '171', '193', '211', '304', '335', '1600', '1700', 'hmi']
+wavelengths: [171, 193, 304]
+n_workers: 3

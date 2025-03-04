@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sswdata"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Mingyu Jeon"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mgjeon/sswdata"
+Repository = "https://github.com/mgjeon/sswdata"
+Issues = "https://github.com/mgjeon/sswdata/issues"
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[tool.setuptools]
+packages = ["sswdata"]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+extend-select = ["I"]
